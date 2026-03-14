@@ -1,4 +1,4 @@
-// Lab 1 – Counter App | useState · event handling
+// Counter App
 import { useState } from 'react'
 import PageShell from '../components/PageShell'
 

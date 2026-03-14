@@ -1,4 +1,4 @@
-// Lab 1 – Show/Hide Toggle | useState · conditional rendering
+// Show/Hide Toggle
 import { useState } from 'react'
 import PageShell from '../components/PageShell'
 

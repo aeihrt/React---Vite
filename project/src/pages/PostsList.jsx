@@ -1,15 +1,15 @@
-// Lab 2 – Hooks Practice | useState · useEffect · fetch API · display list
+// Hooks
 import { useState, useEffect } from 'react'
 import PostCard  from '../components/PostCard'
 import PageShell from '../components/PageShell'
 import { fetchPosts } from '../utils/api'
 
 export default function PostsList() {
-  const [posts,   setPosts]   = useState([])
+  const [posts,   setPosts]   = useState([]) // useState
   const [loading, setLoading] = useState(true)
   const [error,   setError]   = useState(null)
 
-  // useEffect — runs once on mount, fetches from JSONPlaceholder
+  // useEffect
   useEffect(() => {
     fetchPosts(9)
       .then(data  => { setPosts(data); setLoading(false) })

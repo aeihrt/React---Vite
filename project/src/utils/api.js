@@ -1,4 +1,3 @@
-// Lab 3 – utils/ = reusable helper functions (centralised API calls)
 const BASE = 'https://jsonplaceholder.typicode.com'
 
 export async function fetchPosts(limit = 10) {

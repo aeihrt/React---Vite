@@ -1,5 +1,4 @@
-// Lab 1 – Login Form (in the navbar) | useState · controlled components
-// This is the Lab 1 form exercise — separate from the LoginScreen landing page
+// SimpleLogin Form
 import { useState } from 'react'
 import PageShell from '../components/PageShell'
 

@@ -1,17 +1,17 @@
-// Lab 4 – Dynamic Routing | useParams · useEffect · dynamic fetch
+// Dynamic Routing
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import PageShell from '../components/PageShell'
 import { fetchPostById } from '../utils/api'
 
 export default function PostDetail() {
-  const { id } = useParams()   // Lab 4: reads :id from URL
+  const { id } = useParams()   // useParams
 
   const [post,    setPost]    = useState(null)
   const [loading, setLoading] = useState(true)
   const [error,   setError]   = useState(null)
 
-  // Re-fetches whenever :id changes
+  // useEffect
   useEffect(() => {
     setLoading(true)
     setError(null)
@@ -43,6 +43,7 @@ export default function PostDetail() {
       <div style={S.card}>
         <h2 style={S.postTitle}>{post.title}</h2>
         <p style={S.postBody}>{post.body}</p>
+
 
         <div style={S.chipRow}>
           <span style={S.chip}>useParams() → id = "{id}"</span>
