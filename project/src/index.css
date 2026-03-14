@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #1a1a1a;
+  background: #fdf8ff;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Light mode — bright white base, pastel accents */
+input, button, textarea, select {
+  font-family: 'Nunito', sans-serif;
+  color: #1a1a1a;
+}
+
+/* Glass input placeholder colour */
+input::placeholder { color: rgba(45, 27, 78, 0.4); }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up { animation: fadeUp 0.28s ease forwards; }
