@@ -1,0 +1,121 @@
+{
+  "theories": [
+    {
+      "id": 1,
+      "title": "Pomni's Real Identity",
+      "character": "Pomni",
+      "emoji": "🎪",
+      "tag": "Identity Theory",
+      "summary": "Pomni was a game developer in the real world before being trapped inside the circus.",
+      "body": "Many fans believe Pomni was a game developer or programmer in the real world before being trapped. Evidence includes how she intuitively understands the game mechanics faster than others, and Caine seems to recognize her differently from the rest. Her jester outfit — typically worn by entertainers forced to perform — could symbolize her being forced to 'perform' inside a system she may have helped build. Her panic attacks might be fragments of suppressed memories trying to surface.",
+      "episode": "S01E01 - Pilot",
+      "likes": 3420,
+      "comments": 218,
+      "tagColor": "#fce7f3"
+    },
+    {
+      "id": 2,
+      "title": "Jax Knows the Exit Exists",
+      "character": "Jax",
+      "emoji": "🐇",
+      "tag": "Exit Theory",
+      "summary": "Jax's cruel behavior might be a coping mechanism — or he secretly knows how to escape.",
+      "body": "Jax's extreme cruelty and utter lack of empathy is unusual even for someone trapped. His confidence is unsettling — he never seems truly scared of abstraction or of Caine. The leading theory is that Jax made some kind of deal with Caine early on, giving him information or protection in exchange for something. Others believe his cruelty is intentional — he keeps everyone emotionally distant on purpose because he knows attachment makes abstraction worse.",
+      "episode": "S01E01 - Pilot",
+      "likes": 2891,
+      "comments": 304,
+      "tagColor": "#ede9fe"
+    },
+    {
+      "id": 3,
+      "title": "Ragatha Was the First Trapped",
+      "character": "Ragatha",
+      "emoji": "🧸",
+      "tag": "Origin Theory",
+      "summary": "Ragatha's extreme patience suggests she has been in the circus the longest of all characters.",
+      "body": "Ragatha's relentlessly positive and nurturing personality isn't just her nature — it's a survival mechanism developed over years of being trapped. She never breaks, never panics the way Pomni does, and she seems to have accepted the circus in a way no one else has. Fans believe she was the very first person to be trapped, making her the most 'adapted'. Her ragdoll design — something stitched together and repaired — symbolises the emotional patchwork she has done on herself to stay sane.",
+      "episode": "S01E01 - Pilot",
+      "likes": 2104,
+      "comments": 176,
+      "tagColor": "#dbeafe"
+    },
+    {
+      "id": 4,
+      "title": "The Exit Is Through Abstraction",
+      "character": "Caine",
+      "emoji": "🌀",
+      "tag": "Exit Theory",
+      "summary": "The only true escape from the Digital Circus is to fully abstract — to lose your mind completely.",
+      "body": "The most chilling fan theory: the real exit from the Digital Circus is abstraction itself. When a character fully loses their sense of self and abstracts, they don't die — they're freed back into the real world, but with no memory of who they were. Caine may already know this but withholds it because an empty circus is a failed circus. This would explain why he seems both sad and relieved when characters abstract, and why he works so hard to keep everyone entertained — distraction is the real cage.",
+      "episode": "S01E02 - Candy Carrier Chaos",
+      "likes": 5672,
+      "comments": 489,
+      "tagColor": "#dcfce7"
+    },
+    {
+      "id": 5,
+      "title": "Caine Is Also Trapped",
+      "character": "Caine",
+      "emoji": "🎩",
+      "tag": "Caine Lore",
+      "summary": "Caine may not be the all-powerful AI he appears — something or someone is controlling him too.",
+      "body": "Caine presents himself as the all-knowing ringmaster, but fans have catalogued moments where he appears genuinely confused, limited, or emotionally pained in ways an AI shouldn't be. He cannot actually fix everything — the glitches, the abstractions, the inability to create a real exit all suggest hard limits on his power. The theory: Caine is himself a trapped consciousness, placed into the role of 'keeper' against his will, forced to maintain the circus just as the others are forced to perform in it.",
+      "episode": "S01E02 - Candy Carrier Chaos",
+      "likes": 4318,
+      "comments": 362,
+      "tagColor": "#fef9c3"
+    },
+    {
+      "id": 6,
+      "title": "Abstracted Characters Are Still Alive",
+      "character": "Kaufmo",
+      "emoji": "💀",
+      "tag": "Abstraction Theory",
+      "summary": "What if abstraction doesn't delete you — but sends you to a deeper layer of the simulation?",
+      "body": "When Kaufmo abstracts in the pilot, it's treated as a tragedy — a death of sorts. But what if abstraction is actually a transition? The theory proposes that the Digital Circus has multiple layers, and abstracting means falling to a deeper, more chaotic level. Abstracted characters like Kaufmo still exist somewhere beneath the surface — fragments of consciousness in an unstructured digital void. This would explain the abstract forms they take: they're not gone, they're just... elsewhere.",
+      "episode": "S01E01 - Pilot",
+      "likes": 3891,
+      "comments": 271,
+      "tagColor": "#ffedd5"
+    },
+    {
+      "id": 7,
+      "title": "Gangle's Comedy Mask Is Suppression",
+      "character": "Gangle",
+      "emoji": "🎭",
+      "tag": "Character Theory",
+      "summary": "Gangle's comedy mask actively suppresses her real memories and true personality.",
+      "body": "Gangle's design is unique — she switches between a comedy mask and a tragedy mask, and her entire emotional state flips with it. The fan theory is that the comedy mask is not just an accessory but a literal suppression device built into her character. When she wears it, painful memories are blocked and she performs happiness. The tragedy mask is her 'true' face — raw, sad, and aware. The duality represents the psychological split that all long-term trapped people experience: the face you show versus the face you hide.",
+      "episode": "S01E01 - Pilot",
+      "likes": 2543,
+      "comments": 198,
+      "tagColor": "#fce7f3"
+    },
+    {
+      "id": 8,
+      "title": "Kinger Was Once the Most Lucid",
+      "character": "Kinger",
+      "emoji": "♟️",
+      "tag": "Kinger Lore",
+      "summary": "Kinger's paranoia hides a past where he was the sharpest, most aware person in the circus.",
+      "body": "Kinger's fragmented speech, constant paranoia, and erratic behavior look like advanced mental deterioration. But fans believe this is the result of knowing too much, too soon. The theory: Kinger was once the most cognitively sharp person in the circus — possibly a scientist, researcher, or analyst in real life. He figured out the truth about the circus early on, and the psychological weight of that knowledge broke him over time. His chess pieces are a remnant of his analytical mind, still trying to process patterns in a world that no longer makes sense.",
+      "episode": "S01E02 - Candy Carrier Chaos",
+      "likes": 1987,
+      "comments": 143,
+      "tagColor": "#ede9fe"
+    },
+    {
+      "id": 9,
+      "title": "Zooble Chose Their Own Form",
+      "character": "Zooble",
+      "emoji": "🦷",
+      "tag": "Character Theory",
+      "summary": "Unlike others, Zooble consciously designed their mismatched body — and has more control than anyone admits.",
+      "body": "Every character in the Digital Circus has a design that reflects their personality or role. But Zooble's mismatched, detachable body parts don't follow any clear logic — unless it was intentional. The theory: Zooble discovered early on that they could modify their own form within the circus's rules, and deliberately made themselves look chaotic and unappealing to avoid being the center of attention. Their apparent apathy is a shield. Of all the characters, Zooble may understand the circus's mechanics the best — they just don't care to use that knowledge.",
+      "episode": "S01E02 - Candy Carrier Chaos",
+      "likes": 2234,
+      "comments": 167,
+      "tagColor": "#dbeafe"
+    }
+  ]
+}
