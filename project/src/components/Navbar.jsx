@@ -1,12 +1,11 @@
-// Lab 4 – Navbar | pastel kawaii, exact hover colors from reference image 2
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const LINKS = [
-  { to: '/counter',    label: '🔢 Counter',    hoverBg: '#fce7f3', activeBg: '#fce7f3' },
-  { to: '/toggle',     label: '👁 Toggle',     hoverBg: '#dbeafe', activeBg: '#dbeafe' },
-  { to: '/login-form', label: '📝 Login Form', hoverBg: '#fef9c3', activeBg: '#fef9c3' },
-  { to: '/posts',      label: '📋 Posts',      hoverBg: '#dcfce7', activeBg: '#dcfce7' },
+  { to: '/counter',    label: 'Counter App',    hoverBg: '#fce7f3', activeBg: '#fce7f3' },
+  { to: '/toggle',     label: 'Toggle',     hoverBg: '#dbeafe', activeBg: '#dbeafe' },
+  { to: '/login-form', label: 'Simple Login Form', hoverBg: '#fef9c3', activeBg: '#fef9c3' },
+  { to: '/posts',      label: 'Posts',      hoverBg: '#dcfce7', activeBg: '#dcfce7' },
 ]
 
 function NavTab({ to, label, hoverBg, activeBg }) {
@@ -41,14 +40,33 @@ function NavTab({ to, label, hoverBg, activeBg }) {
 }
 
 export default function Navbar() {
+  const [logoutHovered, setLogoutHovered] = useState(false)
+  const navigate = useNavigate()
+
+  const handleLogout = () => navigate('/')
+
   return (
     <nav style={S.nav}>
-      <span style={S.brand}>✦ CSE317L</span>
+      <span style={S.brand}>✦ My Activities</span>
+
       <ul style={S.list}>
         {LINKS.map((link) => (
           <NavTab key={link.to} {...link} />
         ))}
       </ul>
+
+      <button
+        style={{
+          ...S.logoutBtn,
+          background: logoutHovered ? '#fecdd3' : '#fce7f3',
+          transform: logoutHovered ? 'scale(1.04)' : 'scale(1)',
+        }}
+        onMouseEnter={() => setLogoutHovered(true)}
+        onMouseLeave={() => setLogoutHovered(false)}
+        onClick={handleLogout}
+      >
+        Logout
+      </button>
     </nav>
   )
 }
@@ -71,5 +89,19 @@ const S = {
   list: {
     listStyle: 'none', display: 'flex',
     alignItems: 'center', gap: 4, flexWrap: 'wrap',
+    flex: 1,                         
+  },
+  logoutBtn: {
+    marginLeft: 'auto',
+    flexShrink: 0,
+    border: 'none',
+    padding: '7px 18px',
+    borderRadius: 100,
+    fontWeight: 800,
+    fontSize: 13,
+    cursor: 'pointer',
+    color: '#1a1a1a',
+    fontFamily: 'Nunito, sans-serif',
+    transition: 'background 0.15s, transform 0.15s',
   },
 }

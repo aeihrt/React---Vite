@@ -1,4 +1,3 @@
-// Lab 2 – reusable card  |  Lab 4 – links to /posts/:id
 import { Link } from 'react-router-dom'
 
 const PALETTE = ['#fce7f3','#ede9fe','#dbeafe','#dcfce7','#fef9c3','#ffedd5']

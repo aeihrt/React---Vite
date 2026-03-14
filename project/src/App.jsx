@@ -7,10 +7,8 @@ import LoginForm   from './pages/LoginForm'
 import PostsList   from './pages/PostsList'
 import PostDetail  from './pages/PostDetail'
 
-// "/" → kawaii login screen (no navbar)
-// "/counter", "/toggle", "/login-form", "/posts", "/posts/:id" → main app with navbar
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -35,3 +33,4 @@ export default function App() {
     </BrowserRouter>
   )
 }
+export default App

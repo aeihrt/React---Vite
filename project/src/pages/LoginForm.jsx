@@ -1,4 +1,4 @@
-// SimpleLogin Form
+// Simple Login Form
 import { useState } from 'react'
 import PageShell from '../components/PageShell'
 
@@ -29,11 +29,9 @@ export default function LoginForm() {
       badge="Lab 1"
       badgeColor="#fef9c3"
       title="Simple Login Form"
-      subtitle="useState · controlled components · event handling"
     >
       <div style={S.wrap}>
         {submitted ? (
-          /* ── Success state ── */
           <div style={S.successCard}>
             <div style={S.successEmoji}>🌸</div>
             <h2 style={S.successTitle}>Welcome, {form.username}!</h2>
@@ -41,7 +39,7 @@ export default function LoginForm() {
             <button style={S.logoutBtn} onClick={onReset}>log out</button>
           </div>
         ) : (
-          /* ── Form state ── */
+          // Form
           <form style={S.card} onSubmit={onSubmit}>
             <div style={S.field}>
               <label style={S.label} htmlFor="lf-user">Username</label>
@@ -65,9 +63,6 @@ export default function LoginForm() {
 
             <button type="submit" style={S.submitBtn}>log in.</button>
 
-            <p style={S.hint}>
-              Controlled inputs — each keystroke updates <code>useState</code>
-            </p>
           </form>
         )}
       </div>

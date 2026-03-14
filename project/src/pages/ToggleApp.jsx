@@ -10,9 +10,8 @@ export default function ToggleApp() {
       badge="Lab 1"
       badgeColor="#dbeafe"
       title="Show / Hide Toggle"
-      subtitle="useState · conditional rendering"
     >
-      {/* Toggle button */}
+
       <div style={{ textAlign: 'center', marginBottom: 28 }}>
         <button
           style={{
@@ -21,25 +20,21 @@ export default function ToggleApp() {
           }}
           onClick={() => setVisible(v => !v)}
         >
-          {visible ? '🙈 Hide Message' : '👀 Show Message'}
+          {visible ? '🙈 Keep it a secret!' : '👀 Guess my favorite song...'}
         </button>
       </div>
 
-      {/* Message — always mounted, CSS transition */}
+
       <div style={{
         ...S.msgBox,
         opacity:        visible ? 1 : 0,
         transform:      visible ? 'translateY(0)' : 'translateY(-10px)',
         pointerEvents:  visible ? 'auto' : 'none',
       }}>
-        <div style={S.msgTitle}>🎉 Hello there!</div>
-        <p style={S.msgBody}>You toggled me on! Click the button again to hide me.</p>
+        <div style={S.msgTitle}>✨ Stateside by PinkPantheress and Zara Larsson!</div>
+        <p style={S.msgBody}>Click the button again to hide.</p>
       </div>
 
-      <p style={S.hint}>
-        State: <code>isVisible = </code>
-        <strong style={{ color: visible ? '#15803d' : '#b91c1c' }}>{String(visible)}</strong>
-      </p>
     </PageShell>
   )
 }

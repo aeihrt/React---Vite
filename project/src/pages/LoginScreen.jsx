@@ -1,5 +1,3 @@
-// LoginScreen — matches reference image 1 exactly
-// Blue-purple gradient → pink bottom, proper star shapes, frosted glass card
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -82,8 +80,7 @@ export default function LoginScreen() {
         />
       ))}
 
-      {/* Title — italic, pink text-shadow exactly like "starcoins" */}
-      <h1 style={S.title}>CSE317L</h1>
+      <h1 style={S.title}>🌸HELLO...💫</h1>
 
       {/* Frosted glass card */}
       <form style={S.card} onSubmit={onSubmit}>
@@ -116,7 +113,6 @@ export default function LoginScreen() {
 
         {error && <p style={S.err}>{error}</p>}
 
-        {/* Pink pill button with hover */}
         <button
           type="submit"
           style={{
@@ -156,8 +152,7 @@ const S = {
     color: '#ff8fab',
     letterSpacing: '-1px',
     marginBottom: 32,
-    // pink outline + light shadow like the reference
-    WebkitTextStroke: '1.5px #ff6b9d',
+    WebkitTextStroke: '2px #fff',
     textShadow: '3px 3px 0 rgba(255,100,150,0.25)',
     position: 'relative',
     zIndex: 1,

@@ -12,23 +12,18 @@ export default function CounterApp() {
       badge="Lab 1"
       badgeColor="#fce7f3"
       title="Counter App"
-      subtitle="useState · event handling"
     >
-      {/* Count display box */}
+
       <div style={S.box}>
         <div style={{ ...S.num, color: numColor }}>{count}</div>
       </div>
 
-      {/* Buttons */}
       <div style={S.row}>
         <button style={{ ...S.btn, ...S.red   }} onClick={() => setCount(c => c - 1)}>− Decrement</button>
         <button style={{ ...S.btn, ...S.ghost }} onClick={() => setCount(0)}>Reset</button>
         <button style={{ ...S.btn, ...S.green }} onClick={() => setCount(c => c + 1)}>+ Increment</button>
       </div>
 
-      <p style={S.hint}>
-        <code>useState(0)</code> — current value: <strong>{count}</strong>
-      </p>
     </PageShell>
   )
 }

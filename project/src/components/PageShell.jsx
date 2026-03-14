@@ -1,4 +1,3 @@
-// Shared page layout — light mode, pastel gradient bg, white cards, black text
 export default function PageShell({ badge, badgeColor = '#f3e8ff', title, subtitle, children }) {
   return (
     <div style={S.page}>
